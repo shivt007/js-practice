@@ -10,3 +10,9 @@ for( i=0; i<Object.keys(student).length; i++){
     console.log("marks of " + Object.keys(student)[i] + " is " + student[Object.keys(student)[i]]);
     
 }
+
+
+for(let a in student)
+{
+    console.log("marks of " + a + " is " + student[a]);
+}
