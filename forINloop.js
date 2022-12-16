@@ -6,6 +6,7 @@ let student={
     shivoy:-0
 }
 
-for(let i in student){
-    console.log("marks of " + i + " is " + student[i]);
+for( i=0; i<Object.keys(student).length; i++){
+    console.log("marks of " + Object.keys(student)[i] + " is " + student[Object.keys(student)[i]]);
+    
 }
