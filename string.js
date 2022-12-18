@@ -5,6 +5,3 @@ let friend = "soumya"
 
 console.log(friend.concat(" boy friend is ",name,"."));
 console.log(name.replace("shi", "bhand"));
-
-
-
